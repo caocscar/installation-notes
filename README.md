@@ -1,10 +1,10 @@
 # Python 3.6 Installation Notes on Windows 7
 
-**Table of Contents**
+## Table of Contents
 - [Anaconda](#anaconda3-v5_1_0-windows-64-bit)
 - [Geopandas](#geopandas-v0_3_0)
 - [Instagram](#instagramapi-v1_0_2)
-
+---
 ## Anaconda3 v5_1_0 Windows 64-bit
 **Problem:** `conda` and `pip` commands not recognized in the command window  
 **Solution:** Add `C:\Users\caoa\AppData\Local\Continuum\anaconda3\Scripts` to the PATH environment variable to your local account for a local user installation
