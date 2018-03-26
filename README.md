@@ -4,7 +4,7 @@
 - [Anaconda](#anaconda3)
 - [Geopandas](#geopandas-0.3.0)
 - [Instagram](#instagramapi-1.0.2)
-- [Whatsup](#whatsup.here)
+- [Whatsup](#whatsup-here)
 
 ## Anaconda3
 v5.1.0 Windows 64bit
@@ -24,6 +24,6 @@ v1.0.2
 **Problem:** Need ffmpeg  
 **Solution:** Install ffmpeg
 
-## Whatsup.Here
+## Whatsup-Here
 testing
 
