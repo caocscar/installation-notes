@@ -1,9 +1,9 @@
 # Python 3.6 Installation Notes on Windows 7
 
-Table of Contents
-- [Anaconda](#Anaconda3-5.1.0-Windows-64bit)
-- [Geopandas](#Geopandas-0.3.0)
-- [Instagram](#InstagramApi-102)
+**Table of Contents**
+- [Anaconda](#anaconda3-5.1.0-windows-64bit)
+- [Geopandas](#geopandas-0.3.0)
+- [Instagram](#instagramapi-1.0.2)
 
 
 ## Anaconda3 5.1.0 Windows 64bit
@@ -17,7 +17,7 @@ Table of Contents
 **Problem:** Can not `pip install` geopandas binary wheel  
 **Solution:** Used `conda install -c conda-forge geopandas` instead
 
-## InstagramApi-102
+## InstagramApi 1.0.2
 **Problem:** Need ffmpeg  
 **Solution:** Install ffmpeg
 
