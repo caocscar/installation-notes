@@ -18,6 +18,6 @@
 
 ## InstagramApi v1_0_2
 **Problem:** Need ffmpeg  
-**Solution:** Install ffmpeg
+**Solution:** Install ffmpeg from https://www.ffmpeg.org/
 
 
