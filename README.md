@@ -1,11 +1,12 @@
 # Python 3.6 Installation Notes on Windows 7
 
-- [Anaconda](#Anaconda3-5.1.0-Windows-64-bit)
+Table of Contents
+- [Anaconda](#Anaconda3-5.1.0-Windows-64bit)
 - [Geopandas](#Geopandas-0.3.0)
-- [Instagram](#InstagramApi1.0.2)
+- [Instagram](#InstagramApi-102)
 
 
-## Anaconda3 5.1.0 Windows 64-bit
+## Anaconda3 5.1.0 Windows 64bit
 **Problem:** `conda` and `pip` commands not recognized in the command window  
 **Solution:** Add `C:\Users\caoa\AppData\Local\Continuum\anaconda3\Scripts` to the PATH environment variable to your local account for a local user installation
 
@@ -16,7 +17,7 @@
 **Problem:** Can not `pip install` geopandas binary wheel  
 **Solution:** Used `conda install -c conda-forge geopandas` instead
 
-## InstagramApi1.0.2
+## InstagramApi-102
 **Problem:** Need ffmpeg  
 **Solution:** Install ffmpeg
 
