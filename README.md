@@ -16,6 +16,10 @@
 **Problem:** Can not `pip install` geopandas binary wheel  
 **Solution:** Used `conda install -c conda-forge geopandas` instead
 
+## igraph v0_7_1
+**Problem:** Plots in Jupyter Notebook don't work  
+**Solution:** Copy this modified igraph drawing [\_\_init\_\_.py](https://github.com/epmarie/network_workshop/blob/master/__init__.py) file to `..\Anaconda3\Lib\site-packages\igraph\drawing` folder
+
 ## InstagramApi v1_0_2
 **Problem:** Need ffmpeg  
 **Solution:** Install ffmpeg from https://www.ffmpeg.org/
