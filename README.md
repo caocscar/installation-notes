@@ -24,4 +24,6 @@
 **Problem:** Need ffmpeg  
 **Solution:** Install ffmpeg from https://www.ffmpeg.org/
 
+**Problem:** Issue with making requests  
+**Solution:** `requests` package has to be v2.11.1 [See Source](https://github.com/LevPasha/Instagram-API-python/blob/master/requirements.txt)
 
