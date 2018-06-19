@@ -4,6 +4,8 @@
 - [Anaconda](#anaconda3-v5_1_0-windows-64-bit)
 - [Geopandas](#geopandas-v0_3_0)
 - [Instagram](#instagramapi-v1_0_2)
+- [igraph](#igraph-v_0_7_1)
+- [PyTesseract](#pytesseract-v0_2_2)
 ---
 ## Anaconda3 v5_1_0 Windows 64-bit
 **Problem:** `conda` and `pip` commands not recognized in the command window  
@@ -26,4 +28,11 @@
 
 **Problem:** Issue with making requests  
 **Solution:** `requests` package has to be v2.11.1 [See Source](https://github.com/LevPasha/Instagram-API-python/blob/master/requirements.txt)
+
+## PyTesseract v0_2_2
+1. Install Google's Tesseract-OCR Engine (v3_05_01) via [pre-built binary package for Windows](https://github.com/UB-Mannheim/tesseract/wiki) for all users on PC
+2. Add `Tesseract-OCR` folder to your PATH
+3. `pip install pytesseract`
+4. `pip install -U pillow`
+4. Restart Spyder if necessary
 
