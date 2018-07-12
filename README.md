@@ -5,6 +5,7 @@
 - [Geopandas](#geopandas-v0_3_0)
 - [Instagram](#instagramapi-v1_0_2)
 - [igraph](#igraph-v0_7_1)
+- [pdf2image](#pdf2image-v0_1_14)
 - [PyTesseract](#pytesseract-v0_2_2)
 - [Selenium](#selenium-v3_13_0)
 ---
@@ -30,12 +31,19 @@
 **Problem:** Issue with making requests  
 **Solution:** `requests` package has to be v2.11.1 [See Source](https://github.com/LevPasha/Instagram-API-python/blob/master/requirements.txt)
 
+## pdf2image v0_1_14
+1. Install Poppler for Windows http://blog.alivate.com.au/poppler-windows/ 
+2. Add `poppler-0.51` folder to your PATH or move it to a PATH directory
+3. `pip install pdf2image`
+4. `pip install -U pillow`
+5. Restart Spyder if necessary
+
 ## PyTesseract v0_2_2
 1. Install Google's Tesseract-OCR Engine (v3_05_01) via [pre-built binary package for Windows](https://github.com/UB-Mannheim/tesseract/wiki) for all users on PC
 2. Add `Tesseract-OCR` folder to your PATH
 3. `pip install pytesseract`
 4. `pip install -U pillow`
-4. Restart Spyder if necessary
+5. Restart Spyder if necessary
 
 ## Selenium v3_13_0
 1. `pip install selenium`
