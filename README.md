@@ -4,8 +4,9 @@
 - [Anaconda](#anaconda3-v5_1_0-windows-64-bit)
 - [Geopandas](#geopandas-v0_3_0)
 - [Instagram](#instagramapi-v1_0_2)
-- [igraph](#igraph-v_0_7_1)
+- [igraph](#igraph-v0_7_1)
 - [PyTesseract](#pytesseract-v0_2_2)
+- [Selenium](#selenium-v3_13_0)
 ---
 ## Anaconda3 v5_1_0 Windows 64-bit
 **Problem:** `conda` and `pip` commands not recognized in the command window  
@@ -36,3 +37,8 @@
 4. `pip install -U pillow`
 4. Restart Spyder if necessary
 
+## Selenium v3_13_0
+1. `pip install selenium`
+2. Download latest chromedriver from https://sites.google.com/a/chromium.org/chromedriver/downloads
+3. Put chromedriver.exe in the PATH or specify it directly in the line of code
+`webdriver.Chrome(r'C:\Users\caoa\AppData\Local\Continuum\anaconda3\chromedriver.exe', chrome_options = options)`
