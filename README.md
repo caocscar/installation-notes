@@ -5,6 +5,7 @@
 - [Geopandas](#geopandas-v0_3_0)
 - [Instagram](#instagramapi-v1_0_2)
 - [igraph](#igraph-v0_7_1)
+- [openCV](#opencv-v3_4_2)
 - [pdf2image](#pdf2image-v0_1_14)
 - [PyTesseract](#pytesseract-v0_2_2)
 - [Selenium](#selenium-v3_13_0)
@@ -30,6 +31,10 @@
 
 **Problem:** Issue with making requests  
 **Solution:** `requests` package has to be v2.11.1 [See Source](https://github.com/LevPasha/Instagram-API-python/blob/master/requirements.txt)
+
+## OpenCV v3_4_2
+1. Download binary wheel from http://www.lfd.uci.edu/~gohlke/pythonlibs/ and `pip install`
+2. Update `numpy` if `import cv2` does not work
 
 ## pdf2image v0_1_14
 1. Install Poppler for Windows http://blog.alivate.com.au/poppler-windows/ 
