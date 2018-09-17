@@ -1,8 +1,8 @@
-# Python 3.6 Installation Notes on Windows 7
+# Python 3.6 Installation Notes on Windows 10
 
 ## Table of Contents
 - [Anaconda](#anaconda3-v5_1_0-windows-64-bit)
-- [Geopandas](#geopandas-v0_3_0)
+- [Geopandas](#geopandas-v0_4_0)
 - [Instagram](#instagramapi-v1_0_2)
 - [igraph](#igraph-v0_7_1)
 - [openCV](#opencv-v3_4_2)
@@ -17,9 +17,9 @@
 **Problem:** Can not install packages with `conda` or `pip` because it can not find the following file `C:\Users\caoa\AppData\Local\Continuum\anaconda3\Lib\site-packages\certifi\weak.pem`  
 **Solution:** Copied `cacert.pem` and renamed to `weak.pem`
 
-## Geopandas v0_3_0
-**Problem:** Can not `pip install` geopandas binary wheel  
-**Solution:** Used `conda install -c conda-forge geopandas` instead
+## Geopandas v0_4_0
+**Problem:** `conda install -c conda-forge geopandas` asks to uninstall anaconda
+**Solution:** Use `pip install` binary wheels (gdal, pyproj, fiona, shapely, rtree, geopandas). No need for setting PATH. Reference: https://geoffboeing.com/2014/09/using-geopandas-windows/
 
 ## igraph v0_7_1
 **Problem:** Plots in Jupyter Notebook don't work  
