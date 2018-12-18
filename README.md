@@ -31,7 +31,7 @@ GDAL, fiona, pyproj, rtree, shapely, geopandas
 6. geopandas
 
 **Problem:** Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/  
-**Solution:** Microsoft Build Tools 2015 Update 3 or Build Tools for Visual Studio 2017
+**Solution:** Download and install **Microsoft Build Tools 2015 Update 3** or **Build Tools for Visual Studio 2017**
 
 ## igraph v0_7_1
 **Problem:** Plots in Jupyter Notebook don't work  
