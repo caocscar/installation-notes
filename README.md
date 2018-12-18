@@ -17,9 +17,21 @@
 **Problem:** Can not install packages with `conda` or `pip` because it can not find the following file `C:\Users\caoa\AppData\Local\Continuum\anaconda3\Lib\site-packages\certifi\weak.pem`  
 **Solution:** Copied `cacert.pem` and renamed to `weak.pem`
 
-## Geopandas v0_3_0
-**Problem:** Can not `pip install` geopandas binary wheel  
-**Solution:** Used `conda install -c conda-forge geopandas` instead
+## Geopandas v0_4_0
+**Problem:** ImportError: DLL load failed: The specified module could not be found.  
+**Solution:** Download binary wheel from [Christoph Gohlke](https://www.lfd.uci.edu/~gohlke/pythonlibs/) for the following packages:
+GDAL, fiona, pyproj, rtree, shapely, geopandas
+
+`pip install` wheels in the following order:
+1. GDAL
+2. fiona
+3. pyproj
+4. rtree
+5. shapely
+6. geopandas
+
+**Problem:** Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/  
+**Solution:** Microsoft Build Tools 2015 Update 3 or Build Tools for Visual Studio 2017
 
 ## igraph v0_7_1
 **Problem:** Plots in Jupyter Notebook don't work  
